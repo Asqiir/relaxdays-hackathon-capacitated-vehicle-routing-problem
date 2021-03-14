@@ -13,11 +13,11 @@ def do(graph, pakete, lastgrenze_auto, depot):
 	tassen = [Tasse([],[],0,graph,pakete,lastgrenze_auto,depot)]
 
 	while tassen: #solange noch entscheidungen zu treffen
-		print('Tasse:')
-		print(tassen)
-		print(regal_bester_platz)
-		print(UPPER_BOUND)
-		print()
+#		print('Tasse:')
+#		print(tassen)
+#		print(regal_bester_platz)
+#		print(UPPER_BOUND)
+#		print()
 
 		aktuelle_tasse = tassen.pop(-1)
 
